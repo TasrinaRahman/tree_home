@@ -1,0 +1,48 @@
+/**Extra small devices (portrait phones, less than 576px)**/
+ @media (min-width: 320px) and (max-width:575px) { 
+.plan_text hr{  
+    width: 270px;
+    } 
+.brand_text hr {
+    width: 280px;
+   }
+.sign_text hr {
+    width: 280px;
+   }
+}
+
+ /**Small devices (landscape phones, 576px and up)**/
+@media (min-width: 576px) and (max-width:767px) { 
+    .custom_btn {
+    padding: 10px 16px;
+    }
+    .custom_card h5 {
+        font-size: 18px;
+    } 
+    .blog_icon i{
+        padding: 10px 5px;
+    }
+    .nav-link {
+    padding: 0.5rem 6px;
+}
+}
+
+/** Medium devices (tablets, 768px and up)**/
+@media (min-width: 768px) and (max-width:991px) { 
+  .custom_btn {
+    padding: 10px 12px;
+   }
+   .custom_card h5 {
+        font-size: 15px;
+    }    
+}
+
+/** Large devices (desktops, 992px and up)**/
+@media (min-width: 992px) and (max-width:1199px) { 
+   
+}
+
+/** Extra large devices (large desktops, 1200px and up)**/
+@media (min-width: 1200px) { 
+
+}
